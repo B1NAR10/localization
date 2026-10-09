@@ -1,0 +1,43 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Extraendo ficheiros...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Extraendo ficheiros...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Extraendo ficheiros...",
+  "postDownloadActionExecutor.modifyModelData/status": "Actualizando os datos do modelo...",
+  "postDownloadActionExecutor.notification/status": "Notificando ao usuario...",
+  "postDownloadActionExecutor.writeString/status": "Escribindo metadatos...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Actualizando a versión seleccionada...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Eliminando as extensións non usadas...",
+  "postDownloadActionExecutor.pluginInstall/status": "Instalando o complemento...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Desinstalando o complemento...",
+
+  "finalizing": "Finalizando a descarga... (isto pode levar uns intres)",
+  "noOptions": "Non hai opcións compatibles dispoñibles para descargar",
+
+  "deeplink/confirmation/title": "Descargar modelo dende Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Seleccionar a recomendada",
+  "deeplink/confirmation/selectOption": "Seleccionar opción de descarga",
+  "deeplink/confirmation/recommendedOption": "Probablemente a mellor opción para a maioría dos usuarios",
+  "deeplink/confirmation/downloadButton": "Descargar",
+  "deeplink/confirmation/nevermindButton": "Non importa",
+  "deeplink/confirmation/modelPresent/title": "Modelo de Hugging Face atopado ✅",
+  "deeplink/confirmation/modelPresent/body": "Boas novas! Este ficheiro de modelo xa está dispoñible no teu equipo.",
+  "deeplink/confirmation/loadInChat": "Cargar {{ modelName }} nun novo chat",
+  "deeplink/error/modelNotFound/title": "Vaites, non puidemos atopar este modelo",
+  "deeplink/error/modelNotFound/body": "Comproba de novo o nome do modelo e considera probar outra opción de descarga.",
+  "deeplink/actions/trySearching": "Proba a buscar {{modelName}} en Hugging Face",
+
+  "downloadsPanel/title": "Descargas",
+  "downloadsPanel/sectionTitle/ongoing": "En curso",
+  "downloadsPanel/sectionTitle/completed": "Completadas",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Amosar no Finder",
+      "mac/error": "Non se puido amosar no Finder",
+      "nonMac": "Amosar no explorador de ficheiros",
+      "nonMac/error": "Non se puido amosar no explorador de ficheiros"
+    },
+    "completed": "Descarga completada",
+    "loadModel": "Cargar modelo"
+  }
+}

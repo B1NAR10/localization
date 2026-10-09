@@ -1,0 +1,42 @@
+{
+  "action.skipOnboarding": "Omitir introdución",
+  "action.next": "Seguinte",
+  "action.back": "Atrás",
+  "action.finish": "Finalizar",
+
+  "dismissable_rag_modal": {
+    "description": "Agora podes conversar cos teus propios documentos usando xeración aumentada por recuperación (RAG). Velaquí como funciona:",
+    "instructions": {
+      "attach_files": {
+        "title": "Anexar ficheiros",
+        "description": "Sube ata 5 ficheiros á vez, cun tamaño combinado máximo de 30 MB. Os formatos compatibles inclúen PDF, DOCX, TXT e CSV."
+      },
+      "be_specific": {
+        "title": "Sé específico",
+        "description": "Ao facer preguntas, menciona cantos máis detalles sexa posible. Isto axuda ao sistema a recuperar a información máis relevante dos teus documentos."
+      },
+      "get_responses": {
+        "title": "Obtén respostas e experimenta",
+        "description": "O LLM analizará a túa consulta e os fragmentos recuperados dos teus documentos, e tentará xerar unha resposta. Experimenta con diferentes consultas para atopar o que mellor funcione."
+      }
+    }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Beta: Uso de ferramentas 🛠️ (Chamada de funcións)",
+      "text_0": "Algúns modelos (p. ex. Llama 3.1/3.2, Mistral, Qwen e máis) foron adestrados para usar ferramentas.",
+      "text_1": "O que isto significa na práctica é: proporciónaslle unha lista de «ferramentas» (sinaturas de función) ao LLM nun formato moi específico, e o LLM pode decidir se as «chama» segundo a indicación do usuario.",
+      "text_2": "Podes imaxinar casos de uso como consultar unha API, executar código ou calquera cousa que poida expresarse como unha chamada de función."
+    },
+    "step_1": {
+      "title": "Comezar co uso de ferramentas",
+      "toolUseCanWorkWithAnyModel": "Os modelos adestrados para o uso de ferramentas terán un mellor rendemento ca outros, pero podes probar a usar ferramentas con calquera modelo. Le a <customlink>documentación</customlink> para saber máis.\nOs modelos adestrados para o uso de ferramentas marcaranse cun novo distintivo:",
+      "hasCompatibleModel": "🎉 Parece que xa tes modelos compatibles con ferramentas!",
+      "downloadRecommendedModel": "Descarga un modelo que fose adestrado para o uso de ferramentas:"
+    },
+    "nextButton": "Seguinte",
+    "letsGoButton": "Cargar modelo e iniciar o servidor",
+    "doneButton": "Descartar"
+  }
+}

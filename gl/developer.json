@@ -1,0 +1,197 @@
+{
+  "tabs/server": "Servidor local",
+  "tabs/extensions": "Entornos de execución de LM",
+  "loadSettings/title": "Axustes de carga",
+  "modelSettings/placeholder": "Ningún modelo seleccionado",
+
+  "loadedModels/noModels": "Ningún modelo cargado",
+
+  "serverOptions/title": "Opcións do servidor",
+  "serverOptions/configurableTitle": "Opcións configurables",
+  "serverOptions/port/hint": "Define que porto de rede empregará o servidor local. De xeito predeterminado, LM Studio usa o porto 1234. Pode que precises cambialo se o porto xa está en uso.",
+  "serverOptions/port/subtitle": "O porto no que escoitar",
+  "serverOptions/autostart/title": "Iniciar servidor automaticamente",
+  "serverOptions/autostart/hint": "Activar automaticamente o servidor local de LLM de LM Studio ao iniciar a aplicación ou o servizo",
+  "serverOptions/port/integerWarning": "O número de porto debe ser un enteiro",
+  "serverOptions/port/invalidPortWarning": "O porto debe estar entre 1 e 65535",
+  "serverOptions/cors/title": "Activar CORS",
+  "serverOptions/cors/hint1": "Activar CORS (compartición de recursos de orixe cruzada) permitiralles aos sitios web que visites facer solicitudes ao servidor de LM Studio.",
+  "serverOptions/cors/hint2": "CORS pode ser necesario ao facer solicitudes dende unha páxina web ou unha extensión de VS Code ou outra.",
+  "serverOptions/cors/subtitle": "Permitir solicitudes de orixe cruzada",
+  "serverOptions/network/title": "Servir na rede local",
+  "serverOptions/network/subtitle": "Expor o servidor a outros dispositivos da rede",
+  "serverOptions/network/hint1": "Indica se permitir conexións dende outros dispositivos da rede.",
+  "serverOptions/network/hint2": "Se non está marcado, o servidor só escoitará en localhost.",
+  "serverOptions/verboseLogging/title": "Rexistro detallado",
+  "serverOptions/verboseLogging/subtitle": "Activar o rexistro detallado para o servidor local",
+  "serverOptions/contentLogging/title": "Rexistrar indicacións e respostas",
+  "serverOptions/contentLogging/subtitle": "Axustes de rexistro de solicitudes / respostas locais",
+  "serverOptions/contentLogging/hint": "Indica se rexistrar as indicacións e/ou a resposta no ficheiro de rexistro do servidor local.",
+  "serverOptions/redactContent/title": "Ocultar contido confidencial",
+  "serverOptions/redactContent/hint": "Cando está activado, evita que se rexistren datos confidenciais, como o contido das solicitudes e respostas.",
+  "serverOptions/logIncomingTokens/title": "Rexistrar tokens entrantes",
+  "serverOptions/logIncomingTokens/hint": "Indica se rexistrar cada token segundo se vai xerando.",
+  "serverOptions/fileLoggingMode/title": "Modo de rexistro en ficheiro",
+  "serverOptions/fileLoggingMode/off/title": "DESACTIVADO",
+  "serverOptions/fileLoggingMode/off/hint": "Non crear ficheiros de rexistro",
+  "serverOptions/fileLoggingMode/succinct/title": "Sucinto",
+  "serverOptions/fileLoggingMode/succinct/hint": "Rexistrar o mesmo contido que na consola. As solicitudes longas truncaranse.",
+  "serverOptions/fileLoggingMode/full/title": "Completo",
+  "serverOptions/fileLoggingMode/full/hint": "Non truncar solicitudes longas.",
+  "serverOptions/jitModelLoading/title": "Carga de modelos Just-in-Time (JIT)",
+  "serverOptions/jitModelLoading/hint": "Cando está activado, se unha solicitude especifica un modelo que non está cargado, cargarase e empregarase automaticamente. Ademais, o punto de conexión «/v1/models» tamén incluirá modelos que aínda non estean cargados.",
+  "serverOptions/loadModel/error": "Non se puido cargar o modelo",
+  "serverOptions/jitModelLoadingTTL/title": "Descargar automaticamente modelos JIT non usados",
+  "serverOptions/jitModelLoadingTTL/hint": "Un modelo que se cargou Just-in-Time (JIT) para atender unha solicitude da API descargarase automaticamente tras permanecer sen uso durante certo tempo (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "TTL máximo de inactividade",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "minutos",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Manter só o último modelo cargado mediante JIT",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Asegura que como máximo haxa 1 modelo cargado vía JIT en calquera momento (descarga o modelo anterior)",
+  "serverOptions/allowMcp/title": "Permitir MCP remoto",
+  "serverOptions/allowMcp/hint": "Permitir usar MCP que non estean no teu mcp.json. Estas conexións MCP son efémeras, e só existen mentres dura a solicitude. De momento, só se admiten MCP remotos.",
+  "serverOptions/allowMcp/mode/off": "Desactivado",
+  "serverOptions/allowMcp/mode/off/hint": "Non permitir que as solicitudes do servidor usen MCP",
+  "serverOptions/allowMcp/mode/remote": "Remoto",
+  "serverOptions/allowMcp/mode/remote/hint": "Permitir conexión a servidores MCP remotos",
+
+  "serverOptions/start/error": "Non se puido iniciar o servidor",
+  "serverOptions/stop/error": "Non se puido deter o servidor",
+
+  "serverLogs/scrollToBottom": "Ir ao final",
+  "serverLogs/clearLogs": "Limpar rexistros ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Abrir cartafol de rexistros do servidor",
+
+  "runtimeSettings/title": "Axustes do entorno de execución",
+  "runtimeSettings/chooseRuntime/title": "Seleccións",
+  "runtimeSettings/chooseRuntime/description": "Selecciona un motor para usar con cada formato de modelo",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Amosar todos os paquetes de extensión",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "De xeito predeterminado, LM Studio só amosa a última versión de cada paquete de extensión. Activa esta opción para ver todos os paquetes de extensión dispoñibles.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Selecciona un motor",
+
+  "runtimeSettings/chooseFrameworks/title": "Marcos de traballo",
+  "runtimeSettings/chooseFrameworks/description": "Selecciona un marco de traballo para usar con cada funcionalidade",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Analizador integrado",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Analizador de documentos",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Selecciona un analizador de documentos",
+
+  "runtimeOptions/uninstall": "Desinstalar",
+  "runtimeOptions/uninstallDialog/title": "Desinstalar {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Desinstalar este entorno de execución eliminarao do sistema. Esta acción é irreversible.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Algúns ficheiros poden eliminarse unicamente despois de reiniciar LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Non se puido desinstalar o entorno de execución",
+  "runtimeOptions/uninstallDialog/confirm": "Continuar e desinstalar",
+  "runtimeOptions/uninstallDialog/cancel": "Cancelar",
+  "runtimeOptions/noCompatibleRuntimes": "Non se atoparon entornos de execución compatibles",
+  "runtimeOptions/downloadIncompatibleRuntime": "Determinouse que este entorno de execución é incompatible co teu equipo. O máis probable é que non funcione.",
+  "runtimeOptions/noRuntimes": "Non se atoparon entornos de execución",
+
+  "runtimes": {
+    "manageLMRuntimes": "Xestionar entorno de execución de LM",
+    "includeOlderRuntimeVersions": "Incluír versións anteriores",
+    "dismiss": "Descartar",
+    "updateAvailableToast": {
+      "title": "Actualización do entorno de execución de LM dispoñible!"
+    },
+    "updatedToast": {
+      "title": " ✅ Entorno de execución de LM actualizado: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Os modelos {{compatibilityTypes}} cargados recentemente usarán o entorno de execución actualizado."
+    },
+    "noAvx2ErrorMessage": "Todos os entornos de execución de LM requiren actualmente unha CPU con soporte de AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Paquetes de extensión de execución",
+      "refresh": "Actualizar",
+      "refreshing": "Actualizando...",
+      "filterSegment": {
+        "compatibleOnly": "Só compatibles",
+        "all": "Todos"
+      },
+      "card": {
+        "releaseNotes": "Notas da versión",
+        "latestVersionInstalled": "Última versión instalada",
+        "updateAvailable": "Actualización dispoñible"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Xestionar entornos de execución activos"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Xestionar versións",
+        "close": "Pechar"
+      },
+      "tabs": {
+        "all": "Todos",
+        "frameworks": "Os meus marcos de traballo",
+        "engines": "Os meus motores"
+      },
+      "detailsModal": {
+        "installedVersions": "Versións instaladas para {{runtimeName}}",
+        "manifestJsonTitle": "JSON de manifesto (avanzado)",
+        "releaseNotesTitle": "Notas da versión",
+        "noReleaseNotes": "Non hai notas da versión dispoñibles para esta versión",
+        "back": "Atrás",
+        "close": "Pechar"
+      },
+      "noEngines": "Non hai motores instalados",
+      "noFrameworks": "Non hai marcos de traballo instalados"
+    }
+  },
+
+  "inferenceParams/noParams": "Non hai parámetros de inferenza configurables dispoñibles para este tipo de modelo",
+
+  "quickDocs": {
+    "tabChipTitle": "Documentación para desenvolvedores",
+    "newToolUsePopover": "Os fragmentos de código están agora dispoñibles aquí en «Documentación para desenvolvedores». Preme aquí para comezar co uso de ferramentas!",
+    "newToolUsePopoverTitle": "📚 Documentación para desenvolvedores",
+    "learnMore": "ℹ️ 👾 Para saber máis sobre os puntos de conexión do servidor local de LM Studio, visita a [documentación](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Ola, mundo!"
+    },
+    "chat": {
+      "title": "Chat"
+    },
+    "structuredOutput": {
+      "title": "Saída estruturada"
+    },
+    "imageInput": {
+      "title": "Entrada de imaxe"
+    },
+    "embeddings": {
+      "title": "Incrustacións (Embeddings)"
+    },
+    "toolUse": {
+      "title": "Uso de ferramentas",
+      "tab": {
+        "saveAsPythonFile": "Gardar como ficheiro de Python",
+        "runTheScript": "Executa o script:",
+        "savePythonFileCopyPaste": "Gardar como ficheiro de Python para copiar e pegar a orde"
+      }
+    },
+    "newBadge": "Novo"
+  },
+
+  "endpoints/openaiCompatRest/title": "Puntos de conexión compatibles{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "Tipo OpenAI",
+  "endpoints/openaiCompatRest/getModels": "Listar os modelos cargados actualmente",
+  "endpoints/openaiCompatRest/postCompletions": "Modo de completados de texto. Predí o seguinte token ou tokens dada unha indicación. Nota: OpenAI considera este punto de conexión «en desuso».",
+  "endpoints/openaiCompatRest/postChatCompletions": "Completados de chat. Envía o historial de conversa ao modelo para predicir a seguinte resposta do asistente",
+  "endpoints/openaiCompatRest/postEmbeddings": "Incrustacións de texto. Xera incrustacións para un texto de entrada determinado. Acepta unha cadea ou unha matriz de cadeas.",
+  "endpoints/openaiCompatRest/postResponses": "Interface avanzada para xerar respostas de modelos. Crea interaccións con estado pasando o identificador dunha resposta anterior como entrada para a seguinte.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Listar modelos dispoñibles",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Cargar un modelo con opcións",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Descargar un modelo",
+  "endpoints/lmStudioRestV1/postChat": "Conversar cun modelo. Admite conversas con estado de múltiples quendas e MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Obter o estado da descarga dun modelo",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Compatible con Anthropic",
+
+  "model.createVirtualModelFromInstance": "Gardar axustes como un novo modelo virtual",
+  "model.createVirtualModelFromInstance/error": "Non se puideron gardar os axustes como un novo modelo virtual",
+
+  "model": {
+    "toolUseSectionTitle": "Uso de ferramentas",
+    "toolUseDescription": "Detectouse que este modelo foi adestrado para o uso de ferramentas\n\nAbre a <custom-link>documentación para desenvolvedores</custom-link> para máis información"
+  },
+
+  "apiConfigOptions/title": "Configuración da API"
+}

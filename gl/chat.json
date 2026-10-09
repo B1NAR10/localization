@@ -1,0 +1,253 @@
+{
+  "modelLoaderPlaceholder": "Selecciona un modelo para cargar",
+  "systemPromptPlaceholder": "Definir a indicación do sistema",
+  "userRoleText": "Usuario",
+  "assistantRoleText": "Asistente",
+  "addMessageButtonText": "Engadir",
+  "addMessageButtonText/toolTip": "Inserir unha mensaxe no contexto sen activar a predición",
+  "sendMessageButtonText": "Enviar",
+  "sendMessageButtonText/toolTip": "Enviar a túa indicación e o historial de conversa ao modelo para o seu procesamento",
+  "ejectButtonText": "Expulsar",
+  "unloadTooltip": "Expulsar o modelo da memoria",
+  "cancelButtonText": "Cancelar",
+  "loadButtonText": "Cargar",
+  "advancedSegmentText": "Avanzado",
+  "chatSegmentText": "Chat",
+  "chatSidebarTitle": "Chats",
+  "newChatButton": "Novo",
+  "newFolderButton": "Novo cartafol",
+  "viewModeLabel": "Modo de visualización",
+  "noChatSelected": "Ningún chat seleccionado",
+  "chatViewOptions": "Opcións de visualización do chat",
+  "uiControls/title": "Axustes de pantalla",
+  "noChatSelectedPlaceholder": "Selecciona un chat",
+  "unnamedChat": "Chat sen nome",
+  "emptyFolder": "O cartafol está baleiro",
+
+  "tokenCount": "Reconto de tokens",
+  "messageTokenCount": "Reconto de tokens de entrada",
+  "tokenCount/hint": "O número de tokens na mensaxe. Contados usando o tokenizador do modelo actualmente seleccionado.\n\nRequire que o modelo estea cargado.",
+  "messageTokenCount/hint": "O número de tokens na mensaxe. Contados usando o tokenizador do modelo actualmente seleccionado.\n\n**NON** inclúe unha estimación dos tokens nos ficheiros anexos.",
+
+  "notes": "Notas da conversa",
+  "notes/add/first": "Engadir unha nota",
+  "notes/add/another": "Engadir outra nota",
+  "notes/hint": "Garda notas neste chat. As notas son só para a túa referencia e non se envían ao modelo. Todos os cambios gárdanse automaticamente.",
+  "notes/placeholder": "Escribe aquí as túas notas...",
+  "notes/delete": "Eliminar nota",
+  "notes/noteLabel": "Nota",
+  "notes/copyContent": "Copiar contido da nota",
+
+  "actions/sendMessage/error": "Produciuse un erro ao enviar a mensaxe",
+  "actions/loadModel/error": "🥲 Non se puido cargar o modelo",
+  "actions/addFile": "[Experimental] Anexar un ficheiro a esta mensaxe\n(.pdf, texto simple ou .docx)",
+  "actions/addFile/label": "Anexar ficheiro",
+  "actions/changeRole": "Alternar entre os roles de usuario e asistente.\n\nIsto é útil para orientar a conversa nunha dirección específica.\n\nPódese empregar para preparar escenarios de «aprendizaxe con poucos exemplos» (few-shot) ou «aprendizaxe no contexto»",
+  "actions/addImage": "Anexar imaxe",
+  "actions/deleteMessage": "Eliminar mensaxe",
+  "actions/deleteMessage/confirmation": "Tes a certeza de querer eliminar esta mensaxe?",
+  "actions/copyMessage": "Copiar mensaxe",
+  "actions/editMessage": "Editar mensaxe",
+  "actions/editMessage/cannotEditPreprocessed": "Non se poden editar mensaxes preprocesadas porque se sobrescribirán tras executar o preprocesador. Para editar a mensaxe:\n\n - Cambia á mensaxe orixinal e edítaa, ou\n - Modifica o preprocesador para que produza a saída desexada.",
+  "actions/regenerateMessage": "Rexenerar mensaxe",
+  "actions/regenerateMessage/error": "Non se puido rexenerar a mensaxe",
+  "actions/branchChat": "Bifurcar o chat despois desta mensaxe",
+  "actions/branchChat/error": "Non se puido bifurcar o chat",
+  "actions/continueAssistantMessage": "Continuar a mensaxe do asistente",
+  "actions/continueAssistantMessage/error": "Non se puido continuar a mensaxe do asistente",
+  "actions/predictNext": "Xerar resposta de IA",
+  "actions/predictNext/error": "Non se puido xerar a resposta de IA",
+  "actions/loadLastModel": "Recargar o último modelo usado",
+  "actions/loadLastModel/tooltip": "Preme para cargar o modelo que se usou por última vez con este chat:\n\n{{lastModel}}",
+  "actions/loadLastModel/error": "Non se puido cargar o último modelo usado.",
+  "actions/clearLastUsedModel": "Limpar o último modelo usado",
+  "actions/clearLastUsedModel/error": "Non se puido limpar o último modelo usado.",
+  "actions/continueCurrentModel": "Usar o modelo actual",
+  "actions/continueCurrentModel/tooltip": "Modelo actual: {{currentModel}}",
+  "actions/changeToLastUsedModel": "Cargar {{lastModel}}",
+  "actions/changeToLastUsedModel/error": "Non se puido cambiar ao último modelo usado.",
+  "actions/changeToLastUsedModel/tooltip": "Usaches un modelo diferente a última vez que enviaches unha mensaxe neste chat. Preme para descargar o modelo actualmente seleccionado ({{currentModel}}) e cargar o modelo usado por última vez neste chat:\n\n{{lastModel}}",
+  "actions/switchToLastUsedModel": "Cambiar a {{lastModel}}",
+  "actions/switchToLastUsedModel/tooltip": "Preme para cambiar ao modelo usado por última vez neste chat:\n\n{{lastModel}}",
+  "actions/loadModel": "Cargar un modelo",
+  "actions/toggleViewingProcessed/currentlyFalse": "Vendo actualmente a mensaxe orixinal. Preme para ver a mensaxe preprocesada.",
+  "actions/toggleViewingProcessed/currentlyTrue": "Vendo actualmente a mensaxe preprocesada. Preme para ver a mensaxe orixinal.",
+  "actions/toggleViewingProcessed/hint": "Antes de enviar unha mensaxe ao modelo, pode ser preprocesada por un preprocesador de indicacións. Preme para alternar entre ver a mensaxe orixinal e a mensaxe preprocesada. Só a mensaxe preprocesada chega ao modelo.",
+  "editMessageConfirm/title": "Manter os cambios?",
+  "editMessageConfirm/message": "Fixeches cambios nunha mensaxe. Queres mantelos?",
+  "editMessageConfirm/keepEditing": "Continuar editando",
+  "editMessageConfirm/save": "Gardar",
+  "editMessageConfirm/discard": "Descartar cambios",
+  "tokenCount/totalNotAvailable": "Tokens: {{current}}",
+  "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "O contexto está ao {{percentage}}% da capacidade",
+  "tokenCount/contextOverflow": "O contexto sen procesar é maior ca o límite máximo de tokens do modelo. Segundo a túa política de desbordamento de contexto, o contexto pode truncarse ou a mensaxe pode non enviarse.",
+  "modelLoader/manualLoadParams/label": "Escoller manualmente os parámetros de carga do modelo",
+  "modelLoader/manualLoadParams/hint/before": "(ou mantén premido ",
+  "modelLoader/manualLoadParams/hint/after": ")",
+  "actions/move/error": "Non se puido mover",
+  "actions/rename/error": "Non se puido renomear",
+  "actions/createChatAtRoot": "Novo chat...",
+  "actions/createChatAtRoot/error": "Non se puido crear o chat na raíz",
+  "actions/createFolderAtRoot": "Novo cartafol...",
+  "actions/createFolderAtRoot/error": "Non se puido crear o cartafol na raíz",
+  "actions/createFolder/error": "Non se puido crear o cartafol",
+  "actions/openInFolder/mac": "Amosar no Finder",
+  "actions/openInFolder/pc": "Amosar no explorador de ficheiros",
+
+  "actions/createChat/error": "Non se puido crear o chat",
+  "actions/deleteChat/errorTitle": "Non se puido eliminar o chat",
+
+  "userFile/fileSizeLimit": "O límite de tamaño de ficheiro é ",
+  "userFile/noImageSupport": "O modelo non admite a entrada de imaxes",
+  "userFile/errorPrefix": "Erro - ",
+  "userFile/supportedImagePrefix": "Tipo de imaxe non compatible; só se admiten ",
+  "userFile/supportedImageSuffix": "",
+  "userFile/unsupportedFileType": "Tipo de ficheiro non compatible; só se admiten imaxes, PDF e ficheiros .txt.",
+  "userFile/maxFilesPerMessage": "Alcanzouse o número máximo de ficheiros por mensaxe. Non se poden engadir máis de {{files}} ficheiros. ",
+  "userFile/maxFileSizePerMessage": "Alcanzouse o tamaño máximo de ficheiro por mensaxe. Non se poden engadir ficheiros de máis de {{size}}. ",
+  "userFile/maxFileSizePerConversation": "Alcanzouse o tamaño máximo de ficheiro por conversa. Non se poden engadir ficheiros de máis de {{size}}. ",
+  "userFile/failedToUploadError/title": "Produciuse un erro ao subir o ficheiro",
+  "userFile/failedToAddFile/title": "Produciuse un erro ao engadir o ficheiro ao chat",
+  "errorTitle": "Erro",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} documento no chat",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} documentos no chat",
+
+  "prediction/busyModel/title": "O modelo está ocupado",
+  "prediction/busyModel/message": "Agarda a que o modelo remate e téntao de novo",
+  "prediction/noModel/title": "Ningún modelo seleccionado",
+  "prediction/modelLoading": "Mensaxe na cola; enviarase cando o modelo remate de cargarse",
+  "prediction/noModel/message": "Selecciona un modelo para enviar unha mensaxe",
+  "prediction/unloadModel/error": "Non se puido descargar o modelo",
+
+  "retrieval/user/processingLabel": "A IA está a pensar...",
+  "retrieval/powerUser/intermediateStepsHidden": "Pasos intermedios agochados. Preme para expandir.",
+  "retrieval/actions/clickToExpand": "Preme para expandir os pasos intermedios",
+  "retrieval/actions/clickToCollapse": "Preme para contraer os pasos intermedios",
+
+  "style": "Aparencia",
+
+  "style/viewMode/markdown": "Markdown",
+  "style/viewMode/plaintext": "Texto simple",
+  "style/viewMode/monospace": "Monoespazado",
+
+  "speculativeDecodingVisualization/toggle": "Visualizar os tokens de borrador aceptados",
+  "speculativeDecodingVisualization/fromDraftModel_one": "Token de borrador aceptado",
+  "speculativeDecodingVisualization/fromDraftModel_other": "Tokens de borrador aceptados",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "A selección do modo de visualización está desactivada mentres se visualizan os tokens de borrador.",
+
+  "style/fontSize/label": "Tamaño da letra",
+  "style/fontSize/medium": "Predeterminado",
+  "style/fontSize/large": "Grande",
+  "style/fontSize/small": "Pequeno",
+
+  "style/debugBlocks/label": "Amosar bloques de información de depuración",
+
+  "style/thinkingUI/label": "Expandir bloques de razoamento de xeito predeterminado",
+  "style/chatFullWidth/label": "Expandir o contedor do chat ao ancho da ventá",
+
+  "style/chatUtilityMenusShowLabel/label": "Amosar as etiquetas do menú de utilidades do chat",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "Expandir contido",
+    "collapseBlockTooltip": "Contraer contido",
+    "debug": {
+      "label": "INFORMACIÓN DE DEPURACIÓN",
+      "collapseTooltip": "Contraer bloque de información de depuración",
+      "expandTooltip": "Expandir bloque de información de depuración"
+    }
+  },
+
+  "chatTabOptions/clearAllMessages": "Limpar todas as mensaxes...",
+  "chatTabOptions/duplicateChat": "Duplicar chat",
+
+  "topBarActions/duplicateChat": "Duplicar",
+  "topBarActions/clearChat": "Limpar todo",
+  "topBarActions/clearChatConfirmation": "Tes a certeza de querer limpar todas as mensaxes deste chat?",
+  "topBarActions/clearChatCancel": "Cancelar",
+  "topBarActions/clearChatDelete": "Limpar todo",
+
+  "noModels.indexing": "Indexando os ficheiros de modelo... (isto pode levar un intre)",
+  "noModels.downloading": "Descargando o teu primeiro LLM...",
+  "noModels": "Aínda non tes ningún LLM! Descarga un para comezar!",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "Complemento",
+      "multiplePlugins": "{{dynamicValue}} complementos"
+    },
+    "pluginSelect": {
+      "title": "Complementos",
+      "dropdown": {
+        "configure": "Configurar",
+        "disable": "Desactivar",
+        "fork": "Bifurcar",
+        "uninstall": "Desinstalar"
+      },
+      "actionButtons": {
+        "create": "Crear",
+        "import": "Importar",
+        "discover": "Descubrir"
+      },
+      "recentlyCreated": {
+        "title": "Complementos creados recentemente",
+        "placeholder": "Os complementos que crees aparecerán aquí"
+      },
+      "startRunningDevelopmentPlugin/error": "Non se puido iniciar a execución do complemento en modo de desenvolvemento",
+      "stopRunningDevelopmentPlugin/error": "Non se puido deter a execución do complemento en modo de desenvolvemento",
+      "forceReInitPlugin/error": "Non se puido reiniciar o complemento",
+      "signOutMcpPlugin/error": "Non se puido pechar sesión no complemento",
+      "cancelMcpAuthentication/error": "Non se puido cancelar a autenticación do complemento"
+    },
+    "pluginConfiguration": {
+      "title": "Configuración do complemento",
+      "selectAPlugin": "Selecciona un complemento para editar a súa configuración",
+      "preprocessorAndGenerator": "Este complemento contén un preprocesador e un xerador personalizados",
+      "generatorOnly": "Este complemento contén un xerador personalizado",
+      "preprocessorOnly": "Este complemento contén un preprocesador personalizado"
+    },
+    "instructions": {
+      "runTheFollowing": "Para executar o teu complemento, abre un terminal e introduce",
+      "pushTo": "Comparte o teu complemento con outros publicándoo no Hub (opcional)",
+      "createdSuccessfully": "Complemento creado con éxito",
+      "creatingPlugin": "Creando complemento...",
+      "projectFilesTitle": "Ficheiros do proxecto",
+      "buttons": {
+        "documentation": "Documentación",
+        "dismiss": "Descartar",
+        "publish": "Publicar",
+        "openInZed": "Abrir en Zed",
+        "openInVscode": "Abrir en VS Code",
+        "revealInFinder": "Amosar no Finder",
+        "openInFileExplorer": "Abrir no explorador de ficheiros"
+      }
+    },
+    "localFork": {
+      "error": "Non se puido crear unha copia de desenvolvemento local do complemento."
+    },
+    "restartErrorPlugin/error": "Non se puido reiniciar o complemento"
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} tok/s",
+    "predictedTokensCount": "{{predictedTokensCount}} tokens",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}} s ata o primeiro token",
+    "stopReason": "Motivo de parada: {{stopReason}}",
+    "stopReason.userStopped": "Detido polo usuario",
+    "stopReason.modelUnloaded": "Modelo descargado",
+    "stopReason.failed": "Erro na xeración",
+    "stopReason.eosFound": "Atopouse o token EOS",
+    "stopReason.stopStringFound": "Atopouse a cadea de parada",
+    "stopReason.toolCalls": "Chamadas de ferramenta",
+    "stopReason.maxPredictedTokensReached": "Alcanzouse o máximo de tokens preditos",
+    "stopReason.contextLengthReached": "Alcanzouse o límite de lonxitude de contexto",
+    "speculativeDecodedBy": "Modelo de borrador: {{decodedBy}}",
+    "speculativeDecodingStats": "Aceptados {{accepted}}/{{total}} tokens de borrador ({{percentage}}%)",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% de tokens de borrador aceptados",
+    "speculativeDecodingTooltip": "Aceptados {{accepted}}/{{total}} tokens de borrador"
+  },
+
+  "tabs": {
+    "systemPromptEditorTab.headerLabel": "Editando a indicación do sistema"
+  }
+}
